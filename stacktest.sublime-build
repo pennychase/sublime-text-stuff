@@ -1,0 +1,5 @@
+{
+    "shell_cmd": "stack test",
+    "selector": "source.haskell"
+}
+

@@ -1,0 +1,12 @@
+{
+    "target": "terminus_open",
+    "auto_close": false,
+    "title": "Cabal Repl",
+    "shell_cmd": "cabal repl",
+    "post_window_hooks": [
+        ["carry_file_to_pane", {"direction": "right"}]
+    ],
+    "working_dir": "$folder",
+    "selector": "source.haskell",
+    "file_regex": "^(\\S[^:]*):(\\d+):(\\d+):\\s+([^\\n]+)"
+}
