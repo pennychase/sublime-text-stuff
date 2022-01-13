@@ -1,0 +1,18 @@
+[
+	{"keys": ["f5"], "command": "pydev"},
+  { "keys": ["alt+shift+h"], "command": "hoogle_search_selection" },
+  
+	{ "keys": ["alt+`"], "command": "toggle_terminus_panel" },
+    {
+      "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+  { "keys": ["super+alt+enter"],"command": "send_selection_to_haskell",
+      "context": 
+        [
+          { "key": "selection_empty", "operator": "equal", "operand": false },
+          { "key": "num_selections", "operator": "equal", "operand": 1 },
+        ],
+  },
+]
