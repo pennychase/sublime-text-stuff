@@ -1,7 +1,7 @@
 {
     "target": "terminus_open",
     "auto_close": false,
-    "title": "Cabal Repl",
+    "title": "Stack Repl",
     "tag": "haskell",
     "shell_cmd": "stack repl",
     "post_window_hooks": [
